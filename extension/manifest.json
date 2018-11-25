@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "IMDB Rating for Netflix",
+  "description": "This extension scrapes IMDB for Movie/Series Name and returns rating.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "IMDB_Rating"
+  },
+  "permissions": [
+    "https://www.netflix.com/*"
+  ]
+}
