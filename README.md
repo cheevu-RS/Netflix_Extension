@@ -1,5 +1,6 @@
 # Netflix_IMDB_Rating
 A chrome extension to fetch IMDB ratings whilst browsing shows using netflix.
+![screenshot](screenshot.png)
 ### How to install: 
 1) Clone the repository.
 2) Open chrome, naviagte to chrome://extensions.
