@@ -10,6 +10,6 @@
     "default_title": "IMDB_Rating"
   },
   "permissions": [
-    "https://www.netflix.com/*"
+    "http://*/","https://*/"
   ]
 }
