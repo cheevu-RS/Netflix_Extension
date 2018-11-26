@@ -9,6 +9,10 @@
     "default_popup": "popup.html",
     "default_title": "IMDB_Rating"
   },
+  "content_scripts": [ {
+    "js": [ "jquery-3.3.1.min.js"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
   "permissions": [
     "http://*/","https://*/"
   ]
