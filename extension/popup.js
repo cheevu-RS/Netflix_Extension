@@ -26,15 +26,9 @@ function postData(input) {
                 //alert(this.responseText);
                 stuff = JSON.parse(this.responseText);
                 Object.keys(stuff).forEach(function (key) {
-                    if(key==='Ratings')
-                    {
-                        if(stuff[key]!==[])
-                        {
+                if(key!=="Ratings")
                     document.getElementById('status').innerHTML+="<b>"+key+"</b>"+":"+stuff[key]+"<br>"; 
-                        }
-                    }
-                    document.getElementById('status').innerHTML+="<b>"+key+"</b>"+":"+stuff[key]+"<br>"; 
-                 });
+                });
                 //document.getElementById('status').innerHTML=this.responseText;        
                 }
             };
