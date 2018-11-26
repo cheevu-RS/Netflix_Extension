@@ -14,7 +14,8 @@ function postData(input) {
         scrape.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             let dummy = $(this.responseText);
-            var name = $(dummy).find('img.logo')[0]['alt'];
+            var name = $(dummy).find('.text.image-fallback-text').text();
+            console.log(name);
             //Netflix year is last updates year of movie, not what OMDB has.
             //var year = $('.year',dummy).text();
             url = "http://www.omdbapi.com/?apikey=9429ae3b&t="+name;//+"&y="+year;
