@@ -1,6 +1,6 @@
 # Netflix_Information
 A chrome extension to fetch [OMDB](http://www.omdbapi.com/) information of show/movie whilst using netflix.
-
+![screenshot](screenshot.png)
 ### How to install: 
 1) Clone the repository.
 2) Open chrome, naviagte to chrome://extensions.
