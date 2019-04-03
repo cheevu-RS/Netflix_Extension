@@ -4,7 +4,7 @@ A chrome extension to fetch [OMDB](http://www.omdbapi.com/) information of show/
 
 ### How to install: 
 1) Clone the repository.
-2) Open chrome, naviagte to chrome://extensions.
+2) Open chrome, navigate to chrome://extensions.
 3) Click on load unpacked extension, select directory named 'extension'.
 
 ### Usage:
