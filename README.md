@@ -15,4 +15,4 @@ Now press the chrome extension (with Netflix logo, to get the details)
 None
 
 ### To-Do:
-1) Make the extension faster. 
+1) Make the extension faster by calling the API in background.js so that the result seems instantaneous. 
