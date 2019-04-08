@@ -7,8 +7,9 @@ function get_url(){
     browser.tabs.query({active: true, currentWindow: true},postData)
 }
 
-function postData(input) {
+function postData(tabs) {
     //to obtain movie name,year
+    input = tabs[0].url;
     var scrape = new XMLHttpRequest();
     scrape.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
