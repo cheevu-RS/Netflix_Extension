@@ -1,14 +1,11 @@
-async function get_url(callback) {
-    tabs = await chrome.tabs;
-    tabs.query({
-            'active': true,
-            'windowId': chrome.windows.WINDOW_ID_CURRENT
-        },
-        function (tabs) {
-            callback(tabs[0].url)
-        }
-    );
-};
+window.browser = (function () {
+    return window.msBrowser ||
+      window.browser ||
+      window.chrome;
+  })();
+function get_url(){
+    browser.tabs.query({active: true, currentWindow: true},postData)
+}
 
 function postData(input) {
     //to obtain movie name,year
@@ -39,4 +36,4 @@ function postData(input) {
     scrape.open("GET", input, true);
     scrape.send();
 }
-get_url(postData);
+get_url();
