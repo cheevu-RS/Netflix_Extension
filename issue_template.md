@@ -1,5 +1,5 @@
-Expected behavior and actual behavior.
+<b>Expected behavior and actual behavior<b>
     
-Steps to reproduce the problem.
+<b>Steps to reproduce the problem<b>
     
-Specifications like the version of the project, browser.
+<b>Specifications like the version of the project, browser<b>
