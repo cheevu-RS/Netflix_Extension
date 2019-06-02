@@ -15,3 +15,6 @@ Now press the extension (with Netflix logo, to get the details)
 
 ### To-Do:
 1) Make the extension faster by calling the API in background.js so that the result seems instantaneous. 
+
+### Idea:
+[@shreyas1599](https://github.com/shreyas1599) 
