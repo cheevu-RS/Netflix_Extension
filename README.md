@@ -4,13 +4,15 @@ A browser extension that works on Google Chrome, Mozilla Firefox to fetch [OMDB]
 
 ### How to install: 
 1) Clone the repository.
-2) For Chrome, navigate to chrome://extensions.
-3) For firefox, goto about:debugging.
-3) Click on load unpacked extension, select directory named 'extension' for Chrome, select manifest.json file for Firefox.
+2) Get an API key at http://www.omdbapi.com/apikey.aspx
+3) Copy env.example.js to env.js and add your API Key
+4) For Chrome, navigate to chrome://extensions.
+5) For firefox, goto about:debugging.
+6) Click on load unpacked extension, select directory named 'extension' for Chrome, select manifest.json file for Firefox.
 
 ### Usage:
-1) Navigate to netflix, click on show/ hover over it to get short preview.
-Now press the extension (with Netflix logo, to get the details)
+1) Navigate to netflix, click on show/ hover over it to get the short preview.
+Now, click the extension (with Netflix logo, to get the details)
 
 
 ### To-Do:
